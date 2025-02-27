@@ -1,0 +1,21 @@
+.capybara-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    animation: float 3s infinite ease-in-out;
+  }
+  
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+  
+  .capybara-img {
+    width: 250px;
+    transition: transform 0.5s;
+  }
+  
+  .capybara-img:hover {
+    transform: rotate(10deg);
+  }
+  
